@@ -1,4 +1,4 @@
-FROM python:2.7-onbuild
+FROM python:2.7-alpine
 ENV PORT 8080
 EXPOSE 8080
 ENTRYPOINT ["python"]
